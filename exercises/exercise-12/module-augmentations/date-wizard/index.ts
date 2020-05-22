@@ -3,4 +3,8 @@ import 'date-wizard';
 
 declare module 'date-wizard' {
     // Add your module extensions here.
+    interface DateDetails {
+        hours: number;
+    }
+    function pad(arg: number): string;
 }
